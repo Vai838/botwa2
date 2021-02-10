@@ -254,7 +254,7 @@ function kyun(seconds){
   var seconds = Math.floor(seconds % 60);
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
-  return `${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik`
+  return `${pad(hours)} Hours ${pad(minutes)} Minutes ${pad(seconds)} Seconds`
 }
 /********** FUNCTION ***************/
 
