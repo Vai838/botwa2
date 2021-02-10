@@ -15,11 +15,11 @@ exports.lvloff = () => {
 }
 
 exports.lvlnul = () => {
-	return`*LEVELMU MASIH KOSONG*`
+	return`*YOUR LEVEL IS STILL EMPTY*`
 }
 
 exports.lvlnoon = () => {
-	return`*LEVEL DI GRUB BELUM DI AKTIFKAN*`
+	return`*GRUB LEVEL IS NOT ACTIVATED YET*`
 }
 
 exports.noregis = () => {
@@ -47,7 +47,7 @@ exports.ownerb = () => {
 }
 
 exports.ownerg = () => {
-	return`*「BOT OWNER GROUP ONLY」*`
+	return`*「GROUP OWNER ONLY」*`
 }
 
 exports.admin = () => {
@@ -143,25 +143,20 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ╠══─⊱ ❰ *FUN MENU* ❱ ⊰─════➤
 ╠☞ *${prefix}mining*
-╠☞ *${prefix}bisakah*
-╠☞ *${prefix}kapankah*
-╠☞ *${prefix}apakah*
-╠☞ *${prefix}rate*
 ╠☞ *${prefix}slap*
 ╠☞ *${prefix}speed*
 ║
 ╠══─⊱ ❰ *MEDIA MENU* ❱ ⊰─═══➤
-╠☞ *${prefix}toxic*
 ╠☞ *${prefix}quotes*
 ╠☞ *${prefix}brainly*
 ╠☞ *${prefix}pinterest*
-╠☞ *${prefix}resepmasakan*
-╠☞ *${prefix}igstalk*
+╠☞ *${prefix}ytmp4*
+╠☞ *${prefix}ocr*
 ║
 ╠══─⊱ ❰ *LIMIT MENU* ❱ ⊰─═══➤
 ╠☞ *${prefix}limit*
 ╠☞ *${prefix}buylimit*
-╠☞ *${prefix}dompet*
+╠☞ *${prefix}ATM*
 ║
 ╠══─⊱ ❰ *GROUP MENU* ❱ ⊰─══➤
 ╠☞ *${prefix}hidetag*
@@ -198,7 +193,7 @@ exports.menu = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp
 ║
 ╠══─⊱ ❰ *IRA-BOT* ❱ ⊰─══➤
 ║
-╰════─⊱  ⸨ *Vai838* ⸩  ⊰─════╯
+╰════─⊱ ⸨ *Vai838* ⸩ ⊰─════╯
 `
 }
 
